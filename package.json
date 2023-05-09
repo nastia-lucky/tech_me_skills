@@ -1,0 +1,11 @@
+{
+  "name": "tech_me_skills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node myHomework3/advanced/task3.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
