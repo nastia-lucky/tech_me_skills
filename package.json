@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx ts-node myHomework4/task11.ts"
+    "test": "npx ts-node myHomework6/advanced/task1.ts", 
+    "test2": "node myHomework6/task5.js"
+
   },
   "author": "",
   "license": "ISC"
