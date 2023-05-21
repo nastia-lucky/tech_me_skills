@@ -5,7 +5,7 @@ function getResult(str: string): void {
 }
 
 function getWord(a: number): string {
-    let result:any;
+    let result: any;
     switch (a) {
         case 0:
             result = "zero";
