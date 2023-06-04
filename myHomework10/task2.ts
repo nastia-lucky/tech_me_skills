@@ -1,12 +1,12 @@
-type iPerson = {
+type iMyPerson = {
     personName: string
 }
 
-let myPerson: iPerson = {
+let myPerson: iMyPerson = {
     personName: "Tutu"
 }
 
-let myPerson2: iPerson = {
+let myPerson2: iMyPerson = {
     personName: "Tutti"
 }
 
