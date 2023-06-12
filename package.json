@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx ts-node myHomework8/task7.ts",
+    "test": "npx ts-node myHomework9/task1.ts",
     "test1": "js-run: node myHomework5/test.js "
   },
   "author": "",
