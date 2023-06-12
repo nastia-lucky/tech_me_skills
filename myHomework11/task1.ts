@@ -8,31 +8,15 @@ async function getResource() {
     return await response.json();
 }
 
-function isSequenceCorrect(first: number, second: number, third: number, fourth: number) {
+function isSequenceCorrect(sequence: number[]) {
     getResource().then((response) => {
         let myPosts: Post[] = JSON.parse(response);
-        if (myPosts[0].id != first) {
-            throw Error(" id is not as expeced");
-        }
-        else {
-            console.log(myPosts[0].body);
-            if (myPosts[1].id != second) {
-                throw Error(" id is not as expeced");
+        for (let i = 0; i < sequence.length; i++) {
+            if (myPosts[i].id != sequence[i]) {
+                throw Error("ID is not as expeced");
             }
             else {
-                console.log(myPosts[1].body);
-                if (myPosts[2].id != third) {
-                    throw Error(" id is not as expeced");
-                }
-                else {
-                    console.log(myPosts[2].body);
-                    if (myPosts[3].id != fourth) {
-                        throw Error(" id is not as expeced");
-                    }
-                    else {
-                        console.log(myPosts[3].body);
-                    }
-                }
+                console.log(myPosts[i].body);
             }
         }
     });
