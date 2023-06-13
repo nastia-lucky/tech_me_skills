@@ -4,10 +4,11 @@ const url = "https://jsonplaceholder.typicode.com/todos";
 
 async function getTodos() {
     const response = await fetch(url);
-    return JSON.stringify(response);
+    //return JSON.stringify(response);
+    return await response.json();
 }
 
-function printToDo(response: string) {
+function printToDo(response) {
     let toDos: ToDO[] = JSON.parse(response);
     console.log(toDos);
     toDos.forEach((toDo: ToDO) => {

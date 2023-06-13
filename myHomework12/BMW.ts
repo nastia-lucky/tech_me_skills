@@ -5,7 +5,7 @@ export class BMW extends Car {
     private static power = 34;
     private static speed = 456;
 
-    constructor(engine:string, wheelType:string){
+    constructor(engine: string, wheelType: string) {
         super(engine, wheelType);
     }
 
