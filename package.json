@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx ts-node myHomework10/task3.ts",
+    "test": "npx ts-node myHomework11/task2.ts",
     "test1": "js-run: node myHomework5/test.js "
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
