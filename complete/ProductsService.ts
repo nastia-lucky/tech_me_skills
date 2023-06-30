@@ -25,7 +25,7 @@ export class ProductsService {
     }
 
     getProductsByPrice(minValue: number, maxValue: number) {
-        this.products.filter((product: Product) => {
+        return this.products.filter((product: Product) => {
             return product.Price > minValue && product.Price < maxValue;
         })
     }
