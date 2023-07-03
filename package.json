@@ -8,5 +8,9 @@
     "test1": "js-run: node myHomework5/test.js "
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.3.3",
+    "node-fs": "^0.1.7"
+  }
 }

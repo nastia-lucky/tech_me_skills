@@ -8,4 +8,12 @@ export class Rating {
         this.count = count;
     }
 
+    get Count() {
+        return this.count;
+    }
+
+    get Rate() {
+        return this.rate;
+    }
+
 }

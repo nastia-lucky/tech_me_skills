@@ -9,37 +9,45 @@ export class Product {
     private category: string;
     private image: string;
 
-    constructor(title: string, price:number, description: string, rating:Rating, category: string, image:string){
-        this.title=title;
-        this.price=price;
-        this.description=description;
-        this.rating=rating;
-        this.category=category;
-        this.image=image;
+    constructor(title: string, price: number, description: string, rating: Rating, category: string, image: string) {
+        this.title = title;
+        this.price = price;
+        this.description = description;
+        this.rating = rating;
+        this.category = category;
+        this.image = image;
     }
 
-    get Title(){
+    get Title() {
         return this.title;
     }
 
-    get Price(){
+    get Price() {
         return this.price;
     }
 
-    get Description(){
+    get Description() {
         return this.description;
     }
 
-    get Rating(){
+    get Rating() {
         return this.rating;
     }
 
-    get Category(){
+    get Category() {
         return this.category;
     }
 
-    get Image(){
+    get Image() {
         return this.image;
+    }
+
+    set Description(description: string) {
+        this.description = description;
+    }
+
+    set Price(price: number) {
+        this.price = price;
     }
 
 }
