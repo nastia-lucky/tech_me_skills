@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx ts-node complete/testFile.ts",
     "test-mocha": "mocha --require ts-node/register myHomework17/**/*.ts",
-    "test-jest": "jest myHomework19/seleniumTests.spec.ts",
+    "test-jest": "jest myHomework20/tests/tests.spec.ts",
     "test1": "js-run: node myHomework5/test.js "
   },
   "author": "",
